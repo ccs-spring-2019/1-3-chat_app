@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h1>Let's Chat</h1>
+
+{% for chat in chat_list %}
+<div>
+    <h2><a href="{% url 'chat_detail' chat.pk%}">{{ chat.title }}</a></h2>
+</div>
+{% endfor %}
+
+{% endblock content%}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h1>Let's Chat</h1>
+
+<div>
+    <h2><a href="">{{ chat.title }}</a></h2>
+    <p>{{ chat.text }}</p>
+</div>
+
+<a href="{% url 'chat_edit' chat.pk%}">Edit Chat</a>
+<a href="{% url 'chat_delete' chat.pk%}">Delete Chat</a>
+
+{% endblock content%}
