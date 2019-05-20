@@ -7,8 +7,8 @@ verify_ssl = true
 
 [packages]
 django = "==2.1.5"
-whitenoise = "*"
 gunicorn = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.6"
