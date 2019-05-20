@@ -25,7 +25,7 @@ SECRET_KEY = 'l%fa5)z#c1w_#26=rp1dx+l$1c-vj4&j^-ert5ru*0tnye6k-)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['immense-tor-79634.herokuapp.com/']
+ALLOWED_HOSTS = ['immense-tor-79634.herokuapp.com']
 
 
 # Application definition
