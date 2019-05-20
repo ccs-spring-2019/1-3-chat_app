@@ -27,6 +27,7 @@ class ChatEditView(UpdateView):
     model = Chat
     template_name = 'chat_edit.html'
     fields = ['title', 'text']
+    success_url = reverse_lazy('home')
 
 
 class ChatDeleteView(DeleteView):
